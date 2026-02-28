@@ -15,15 +15,6 @@ Pet-проект по символьной генерации текста на 
 - NumPy
 - Jupyter Notebook
 
-## Как запустить
-
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook ltsm_Dostoevskiy.ipynb
-```
-
 ## Результаты
 
 Построена и обучена RNN/LSTM-модель для генерации стилизованного текста.
@@ -33,12 +24,6 @@ jupyter notebook ltsm_Dostoevskiy.ipynb
 - Работать с последовательностями и скрытыми состояниями LSTM.
 - Контролировать проблему взрывающихся градиентов (gradient clipping).
 
-## Ограничения и что улучшить
 
-- Добавить temperature sampling и сравнение с GRU/Transformer baseline.
-
-## Автор
-
-Арсений Козлов - [github.com/ArseniyKoz](https://github.com/ArseniyKoz)
 
 
