@@ -17,7 +17,7 @@ Pet-проект по символьной генерации текста на 
 
 ## Как запустить
 
-`ash
+```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
@@ -40,4 +40,5 @@ jupyter notebook ltsm_Dostoevskiy.ipynb
 ## Автор
 
 Арсений Козлов - [github.com/ArseniyKoz](https://github.com/ArseniyKoz)
+
 
